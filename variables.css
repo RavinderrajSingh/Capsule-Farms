@@ -5,13 +5,14 @@
 :root {
     /* fonts */
     --heading-font: "TASA Explorer", sans-serif;
-    --secondary-heading-font: "Poppins",sans-serif;
+    --secondary-heading-font: "Poppins", sans-serif;
     --body-font: 'Nunito', sans-serif;
     --alt-font: 'Playfair Display', serif;
 
     /* Colros */
-    --primary-gradient: linear-gradient(135deg, #56ab2f , #a8e063);
+    --primary-gradient: linear-gradient(135deg, #56ab2f, #a8e063);
     --primary-green: #56ab2f;
+    --dark-green: #376b1f;
     --secondary-green: #a8e063;
     --mushroom-brown: #3E2723;
     --card-gray: #e0e0e0;
@@ -27,13 +28,13 @@
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: var(--card-gray);
     color: var(--text-dark);
     font-family: var(--body-font);
@@ -41,16 +42,20 @@ body{
 }
 
 /* typography */
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
 }
 
-h2{
+h2 {
     font-family: var(--secondary-heading-font);
 }
 
-p{
+p {
     font-size: var(--paragraph-size);
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
-
