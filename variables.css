@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=TASA+Explorer:wght@400..800&display=swap');
+
+
+
+:root {
+    /* fonts */
+    --heading-font: "TASA Explorer", sans-serif;
+    --secondary-heading-font: "Poppins",sans-serif;
+    --body-font: 'Nunito', sans-serif;
+    --alt-font: 'Playfair Display', serif;
+
+    /* Colros */
+    --primary-gradient: linear-gradient(135deg, #56ab2f , #a8e063);
+    --primary-green: #56ab2f;
+    --secondary-green: #a8e063;
+    --mushroom-brown: #3E2723;
+    --card-gray: #e0e0e0;
+    --text-white: #ffffff;
+    --text-dark: #222222;
+
+    /* font sizes */
+    --heading-size: 2.5rem;
+    --paragraph-size: 1rem;
+
+    /* spacing */
+    --section-padding: 60px
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--card-gray);
+    color: var(--text-dark);
+    font-family: var(--body-font);
+    line-height: 1.6;
+}
+
+/* typography */
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+}
+
+h2{
+    font-family: var(--secondary-heading-font);
+}
+
+p{
+    font-size: var(--paragraph-size);
+    margin-bottom: 1rem;
+}
+
